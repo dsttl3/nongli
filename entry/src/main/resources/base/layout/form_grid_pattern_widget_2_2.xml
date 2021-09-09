@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#99007DFB"
+    ohos:padding="10vp"
+    ohos:remote="true"
+    ohos:alignment="center">
+
+    <DirectionalLayout
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:alignment="center"
+        ohos:orientation="vertical">
+        <Text
+            ohos:id="$+id:lunarYear"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:padding="5vp"
+            ohos:text="年"
+            ohos:text_alignment="center"
+            ohos:text_size="12vp"
+            ohos:text_color="#ffffff"/>
+        <Text
+            ohos:id="$+id:lunar"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:padding="5vp"
+            ohos:text="农历"
+            ohos:text_alignment="center"
+            ohos:text_size="26vp"
+            ohos:text_color="#ffffff"
+            />
+        <Text
+            ohos:id="$+id:weekday"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:padding="5vp"
+            ohos:text_alignment="center"
+            ohos:text="星期"
+            ohos:multiple_lines="true"
+            ohos:text_size="12vp"
+            ohos:text_color="#fff"/>
+        <Text
+            ohos:id="$+id:date"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:text_alignment="center"
+            ohos:text="日期"
+            ohos:text_size="12vp"
+            ohos:text_color="#99ffffff"/>
+
+    </DirectionalLayout>
+</DependentLayout>
